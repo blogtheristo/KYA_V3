@@ -6,6 +6,8 @@ Open specification for agent rights. Proprietary execution.
 
 KYA v3 is open so that anyone can check what an agent is allowed to do. What is not open is how those rights are enforced, how they are proved and who carries the liability. The specification is public; the execution and the evidence are not.
 
+**Agenttien tuntemus auttaa löytämään väärinkäytökset.**
+
 ## What's Open (Apache-2.0)
 
 - Agent permission definitions (`agent-rights/`)
