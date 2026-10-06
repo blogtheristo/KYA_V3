@@ -1,0 +1,12 @@
+[Unit]
+Description=Daily backup of GitHub App PostgreSQL database
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/home/admin100/.opencode-worktrees/dws6/KYA_v3/scripts/daily/github-app-backup.sh
+User=admin100
+Group=admin100
+
+[Install]
+WantedBy=multi-user.target

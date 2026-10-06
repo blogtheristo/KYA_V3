@@ -1,0 +1,11 @@
+[Unit]
+Description=Daily backup timer for GitHub App PostgreSQL
+
+[Timer]
+OnCalendar=daily
+OnBootSec=5min
+Persistent=true
+Unit=github-app-backup.service
+
+[Install]
+WantedBy=timers.target
