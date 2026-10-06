@@ -7,6 +7,10 @@ Open specification for agent rights. Proprietary execution.
 KYA v3 is open so that anyone can check what an agent is allowed to do. What is not open is how those rights are enforced, how they are proved and who carries the liability. The specification is public; the execution and the evidence are not.
 
 **Agenttien tuntemus auttaa löytämään väärinkäytökset.**
+**Murtaja ei tullut ulkoa. Se oli jo sisällä, ja sillä oli oikeudet. Kuka tarkistaa, mitä se sai tehdä?**
+→ **KYA v3-spesifikaatio** toimii sisäisen tarkastuksen välineenä.
+→ **DWS IQ Aegis** on tuon tarkastuksen väline.
+→ [Aegis - Full Sovereignty Layer](https://github.com/blogtheristo/dws6)
 
 ## What's Open (Apache-2.0)
 
