@@ -1,2 +1,25 @@
-# KYA_V3
-Know Your Agent V3
+# KYA v3 — Know Your Agent
+
+Open specification for agent rights. Proprietary execution.
+
+KYA v3 is open so that anyone can check what an agent is allowed to do. What is not open is how those rights are enforced, how they are proved and who carries the liability. The specification is public; the execution and the evidence are not.
+
+## What's Open (Apache-2.0)
+
+- Agent permission definitions (`agent-rights/`)
+- Access control framework specification
+- Rights verification protocols
+
+## What's Proprietary (Lifetime Oy)
+
+- **Themis:** Legal reasoning engine (how rights are enforced)
+- **Capacity Class:** Where rights may be exercised (deployment constraints: resource limits, capability thresholds, operational boundaries)
+- **Aegis:** Full sovereignty layer (execution + compliance evidence chain)
+
+## Why Open Specification?
+
+Agent rights must be checkable regardless of who built the agent. This ensures interoperability and trust. The enforcement layer remains proprietary to guarantee accountability, auditability, and liability assignment.
+
+---
+
+License: Apache-2.0 (see LICENSE) | Copyright: 2026 Lifetime Oy
