@@ -8,7 +8,7 @@ KYA v3 is open so that anyone can check what an agent is allowed to do. What is 
 
 - Agent permission definitions (`agent-rights/`)
 - Access control framework specification
-- Rights verification protocols
+- Rights verification protocols (KYA-defined specification for checking an agent's rights, not the implementation)
 
 ## What's Proprietary (Lifetime Oy)
 
