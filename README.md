@@ -1,4 +1,4 @@
-# KYA v3 — Know Your Agent
+# KYA v3 — Know Your Agent v3
 
 Open specification for agent rights. Proprietary execution.
 
@@ -18,7 +18,7 @@ KYA v3 is open so that anyone can check what an agent is allowed to do. What is 
 
 ## Why Open Specification?
 
-Agent rights must be checkable regardless of who built the agent. This ensures interoperability and trust. The enforcement layer remains proprietary to guarantee accountability, auditability, and liability assignment.
+Agent rights must be checkable regardless of who built the agent. This ensures interoperability and trust. The enforcement layer remains proprietary to guarantee accountability and liability assignment. Auditability is provided to customers via the compliance evidence chain.
 
 ---
 
