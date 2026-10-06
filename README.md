@@ -26,4 +26,6 @@ Agent rights must be checkable regardless of who built the agent. This ensures i
 
 This repository contains the KYA v3 **specification** (open, Apache-2.0). The **implementation** (DWS6/Aegis execution) is maintained privately by Lifetime Oy. Customers receive a license to use the deployed solution under their contracts; the source code is not shared.
 
-License: Apache-2.0 (see LICENSE) | Copyright: 2026 Lifetime Oy
+License: Apache-2.0 (see LICENSE) | This license applies to the specification in this repository.
+
+Implementation License: Lifetime Oy's implementation (DWS6/Aegis) is not in this repository. See `IMPLEMENTATION_LICENSE.md` for customer terms.
