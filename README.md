@@ -22,4 +22,8 @@ Agent rights must be checkable regardless of who built the agent. This ensures i
 
 ---
 
+## For Developers
+
+This repository contains the KYA v3 **specification** (open, Apache-2.0). The **implementation** (DWS6/Aegis execution, GitHub App webhook, backup scripts) is in the private `dws6` repository. See `docs/GITHUB_APP_WEBHOOK_DEPLOYMENT.md` in that repo for tukipalvelu details.
+
 License: Apache-2.0 (see LICENSE) | Copyright: 2026 Lifetime Oy
