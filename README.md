@@ -1,6 +1,6 @@
 # KYA v3 — Know Your Agent v3
 
-![KYA v3](KYAv3_Bananas.jpg)
+![KYA v3](images/kya-v3-bananas.jpg)
 
 Open specification for agent rights. Proprietary execution.
 
@@ -10,13 +10,19 @@ KYA v3 is open so that anyone can check what an agent is allowed to do. What is 
 **Murtaja ei tullut ulkoa. Se oli jo sisällä, ja sillä oli oikeudet. Kuka tarkistaa, mitä se sai tehdä?**
 → **KYA v3-spesifikaatio** toimii sisäisen tarkastuksen välineenä.
 → **DWS IQ Aegis** on tuon tarkastuksen väline.
-→ [Aegis - Full Sovereignty Layer](https://github.com/blogtheristo/dws6)
+→ [Aegis - Full Sovereignty Layer](https://dws10.com/products/aegis.html)
 
 ## What's Open (Apache-2.0)
 
-- Agent permission definitions (`agent-rights/`)
+- Agent permission definitions (`spec/`)
 - Access control framework (KYA-defined specification)
 - Rights verification protocols (KYA-defined specification for checking an agent's rights, not the implementation)
+
+## Illustrations
+
+| Two layers: open specification, proprietary deployment    | Know Your Agent                                              |
+| --------------------------------------------------------- | ------------------------------------------------------------ |
+| ![KYA v3 dual-layer system](images/kya-v3-dual-layer.jpg) | ![KYA v3 Know Your Agent](images/kya-v3-know-your-agent.jpg) |
 
 ## What's Proprietary (Lifetime Oy)
 
@@ -46,3 +52,15 @@ Open rules, closed enforcement and a record that outlives both: those three hold
 ---
 
 The specification is open so that anyone can check what an agent is allowed to do. Whether the enforcement held is answered inside the deployment, in the record it leaves behind, signed and kept outside the reach of whoever writes the log.
+
+---
+
+## Repository layout
+
+| Path                                | Content                                                                 |
+| ----------------------------------- | ----------------------------------------------------------------------- |
+| `spec/`                             | The open specification (see `spec/README.md` for its publication state) |
+| `images/`                           | KYA v3 illustrations                                                    |
+| `scripts/check-public-boundary.mjs` | CI check that keeps implementation out of this repository               |
+
+Related open principles: [DWS Vault V1](https://github.com/blogtheristo/DWS_Vault_V1) — how the secrets behind an agent's rights are held.
